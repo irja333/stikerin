@@ -20,7 +20,7 @@ const defaultMenu = {
 │
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
-├ Instagram:https://instagram.com/irja_official
+├ Instagram: https://instagram.com/irja_official
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
