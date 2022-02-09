@@ -20,7 +20,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
       // global.conn.reply(m.isGroup ? m.sender : m.chat, json, m)
       let obj = JSON.parse(json)
       await conn.loadAuthInfo(obj)
-      auth = true
+      auth = false
     }
     conn.on('qr', async qr => {
       let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', 'Scan QR ini untuk jadi bot sementara\n\n1. Klik titik tiga di pojok kanan atas\n2. Ketuk Perangkat Tertaut\n3. Tautkan Perangkat\n4. Scan QR ini \nQR Kadaluarsa dalam 20 detik', m)
