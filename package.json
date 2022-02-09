@@ -1,7 +1,7 @@
 {
-  "name": "stikerinbot",
-  "version": "1.1.2",
-  "description": "WhatsApp Bot Ringan",
+  "name": "IRJA",
+  "version": "05.12.03",
+  "description": "© IRJA",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -19,7 +19,7 @@
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Ariffb",
+  "author": "IRJA",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ariffb25/stikerinbot/issues"
